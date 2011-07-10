@@ -1,9 +1,0 @@
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\bin\Release\Blueprint.exe
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\bin\Release\Blueprint.pdb
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\obj\x86\Release\ResolveAssemblyReference.cache
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\obj\x86\Release\Blueprint.BlueprintForm.resources
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\obj\x86\Release\Blueprint.Properties.Resources.resources
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\obj\x86\Release\GenerateResource.read.1.tlog
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\obj\x86\Release\GenerateResource.write.1.tlog
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\obj\x86\Release\Blueprint.exe
-C:\Users\Aleksander\documents\visual studio 2010\Projects\Blueprint\Blueprint\obj\x86\Release\Blueprint.pdb
