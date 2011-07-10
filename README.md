@@ -1,4 +1,4 @@
-## Blueprint ##
+## Blueprint
 Small utility which allows to design project directory structure with files and templates.
 Functionality based on [Structurer by Nettuts+](http://net.tutsplus.com/freebies/others/free-mac-utility-app-structurer/).
 
