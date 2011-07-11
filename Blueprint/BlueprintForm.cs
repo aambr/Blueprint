@@ -18,8 +18,7 @@ namespace Blueprint
         {
             if (basePathDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                basePathLbl.Text = basePathDialog.SelectedPath;
-                generateBtn.Enabled = true;
+                basePathTxt.Text = basePathDialog.SelectedPath;
             }
         }
 

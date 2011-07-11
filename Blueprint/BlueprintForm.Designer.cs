@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.basePathLbl = new System.Windows.Forms.Label();
             this.basePathDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.structureTxt = new System.Windows.Forms.TextBox();
             this.basePathBtn = new System.Windows.Forms.Button();
@@ -41,17 +40,9 @@
             this.quitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.basePathTxt = new System.Windows.Forms.TextBox();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // basePathLbl
-            // 
-            this.basePathLbl.AutoSize = true;
-            this.basePathLbl.Location = new System.Drawing.Point(155, 38);
-            this.basePathLbl.Name = "basePathLbl";
-            this.basePathLbl.Size = new System.Drawing.Size(148, 13);
-            this.basePathLbl.TabIndex = 0;
-            this.basePathLbl.Text = "Select base path using button";
             // 
             // structureTxt
             // 
@@ -61,7 +52,7 @@
             this.structureTxt.Location = new System.Drawing.Point(12, 62);
             this.structureTxt.Multiline = true;
             this.structureTxt.Name = "structureTxt";
-            this.structureTxt.Size = new System.Drawing.Size(508, 318);
+            this.structureTxt.Size = new System.Drawing.Size(412, 318);
             this.structureTxt.TabIndex = 1;
             // 
             // basePathBtn
@@ -77,8 +68,7 @@
             // generateBtn
             // 
             this.generateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.generateBtn.Enabled = false;
-            this.generateBtn.Location = new System.Drawing.Point(445, 386);
+            this.generateBtn.Location = new System.Drawing.Point(349, 386);
             this.generateBtn.Name = "generateBtn";
             this.generateBtn.Size = new System.Drawing.Size(75, 23);
             this.generateBtn.TabIndex = 3;
@@ -94,7 +84,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip.Size = new System.Drawing.Size(532, 24);
+            this.menuStrip.Size = new System.Drawing.Size(436, 24);
             this.menuStrip.TabIndex = 4;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -113,7 +103,7 @@
             // 
             this.openMenuItem.Name = "openMenuItem";
             this.openMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openMenuItem.Size = new System.Drawing.Size(146, 22);
             this.openMenuItem.Text = "Open";
             this.openMenuItem.Click += new System.EventHandler(this.openMenuItem_Click);
             // 
@@ -121,20 +111,20 @@
             // 
             this.saveMenuItem.Name = "saveMenuItem";
             this.saveMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveMenuItem.Size = new System.Drawing.Size(146, 22);
             this.saveMenuItem.Text = "Save";
             this.saveMenuItem.Click += new System.EventHandler(this.saveMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
             // 
             // quitMenuItem
             // 
             this.quitMenuItem.Name = "quitMenuItem";
             this.quitMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.quitMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quitMenuItem.Size = new System.Drawing.Size(146, 22);
             this.quitMenuItem.Text = "Quit";
             this.quitMenuItem.Click += new System.EventHandler(this.quitMenuItem_Click);
             // 
@@ -143,15 +133,24 @@
             this.saveFileDialog.DefaultExt = "txt";
             this.saveFileDialog.Filter = "Text file|*.txt";
             // 
+            // basePathTxt
+            // 
+            this.basePathTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.basePathTxt.Location = new System.Drawing.Point(155, 35);
+            this.basePathTxt.Name = "basePathTxt";
+            this.basePathTxt.Size = new System.Drawing.Size(269, 20);
+            this.basePathTxt.TabIndex = 5;
+            // 
             // BlueprintForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 421);
+            this.ClientSize = new System.Drawing.Size(436, 421);
+            this.Controls.Add(this.basePathTxt);
             this.Controls.Add(this.generateBtn);
             this.Controls.Add(this.basePathBtn);
             this.Controls.Add(this.structureTxt);
-            this.Controls.Add(this.basePathLbl);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
             this.Name = "BlueprintForm";
@@ -165,7 +164,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label basePathLbl;
         private System.Windows.Forms.FolderBrowserDialog basePathDialog;
         private System.Windows.Forms.TextBox structureTxt;
         private System.Windows.Forms.Button basePathBtn;
@@ -178,6 +176,7 @@
         private System.Windows.Forms.ToolStripMenuItem quitMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.TextBox basePathTxt;
     }
 }
 
