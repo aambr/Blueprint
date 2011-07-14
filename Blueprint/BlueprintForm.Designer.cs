@@ -71,7 +71,7 @@
             this.generateBtn.Location = new System.Drawing.Point(349, 386);
             this.generateBtn.Name = "generateBtn";
             this.generateBtn.Size = new System.Drawing.Size(75, 23);
-            this.generateBtn.TabIndex = 3;
+            this.generateBtn.TabIndex = 2;
             this.generateBtn.Text = "Generate";
             this.generateBtn.UseVisualStyleBackColor = true;
             this.generateBtn.Click += new System.EventHandler(this.generateBtn_Click);

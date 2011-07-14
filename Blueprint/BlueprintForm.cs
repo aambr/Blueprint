@@ -7,7 +7,7 @@ namespace Blueprint
 {
     public partial class BlueprintForm : Form
     {
-        protected readonly Regex re = new Regex(@"^(/?)([\w\.]+/)*([\w\.]+)?(?::([\w]+))?$");
+        protected readonly Regex re = new Regex(@"^(/?)([\w\.-]+/)*([\w\.-]+)?(?::([\w-]+))?$");
 
         public BlueprintForm()
         {
